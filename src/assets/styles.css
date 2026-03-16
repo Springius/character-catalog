@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+* {
+  @apply duration-200;
+}
+input {
+  @apply bg-white border-3 border-amber-300 rounded-lg p-2;
+}
+button {
+  @apply hover:brightness-75 bg-amber-300 rounded-xl cursor-pointer py-2 px-6;
+}
+.card {
+  @apply bg-amber-100 border-2 border-amber-300 p-4 rounded-xl;
+}
