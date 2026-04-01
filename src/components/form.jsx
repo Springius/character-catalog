@@ -8,7 +8,6 @@ export const Form = ({ setCharacters, editCharacter }) => {
   const [jobInput, updateJobInput] = useState("");
   const [imgInput, updateImgInput] = useState("");
 
-  // čia nieko nėra
   useEffect(() => {
     updateCharacterId(() => editCharacter.id);
     updateNameInput(() => editCharacter.name);

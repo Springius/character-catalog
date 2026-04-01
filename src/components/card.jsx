@@ -34,12 +34,14 @@ export const Card = ({
         <p>
           <span className="font-medium">Job:</span> {job}
         </p>
-        <section className="flex justify-between mt-4">
-          <button onClick={edit}>Edit</button>
-          <button onClick={deleteChar} className="bg-red-400!">
-            Delete
-          </button>
-        </section>
+        {setCharacters ? (
+          <section className="flex justify-between mt-4">
+            <button onClick={edit}>Edit</button>
+            <button onClick={deleteChar} className="bg-red-400!">
+              Delete
+            </button>
+          </section>
+        ) : null}
       </div>
     </>
   );

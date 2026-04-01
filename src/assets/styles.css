@@ -6,7 +6,8 @@
 input {
   @apply bg-white border-3 border-amber-300 rounded-lg p-2;
 }
-button {
+button,
+.btn {
   @apply hover:brightness-75 bg-amber-300 rounded-xl cursor-pointer py-2 px-6;
 }
 .card {

@@ -38,7 +38,7 @@ const characters = [
     id: "6",
     name: "Soldier",
     age: 40,
-    job: "Figter",
+    job: "Fighter",
     img: "https://t3.ftcdn.net/jpg/09/76/41/56/360_F_976415673_wG957EgyhymH2qu7OWhClqSAPYu8vA1r.jpg",
   },
 ];
